@@ -51,6 +51,7 @@ public class determiningSorterEfficiency {
         }
         return inputArray;
     }
+    
     //Code for the mergeSort method and the mergeHelper method was inherited from Bro Code on YouTube and implemented accordingly
     //https://www.youtube.com/watch?v=3j0SWDX4AtU&ab_channel=BroCode
     public int[] mergeSort(int[] inputArray){
