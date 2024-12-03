@@ -2,7 +2,7 @@ public class Tester
 {
     public static void main(String[] args){
 
-        determiningSorterEfficiency test = new determiningSorterEfficiency();
+        DeterminingSorterEfficiency test = new DeterminingSorterEfficiency();
 
         test.validateSorters();
 

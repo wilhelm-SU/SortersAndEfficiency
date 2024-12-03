@@ -1,5 +1,5 @@
 import java.util.Random;
-public class determiningSorterEfficiency {
+public class DeterminingSorterEfficiency {
 
     public int[] selectionSort(int[] inputArray){
         for(int i = 0; i < inputArray.length; i++){
@@ -51,7 +51,7 @@ public class determiningSorterEfficiency {
         }
         return inputArray;
     }
-    
+
     //Code for the mergeSort method and the mergeHelper method was inherited from Bro Code on YouTube and implemented accordingly
     //https://www.youtube.com/watch?v=3j0SWDX4AtU&ab_channel=BroCode
     public int[] mergeSort(int[] inputArray){
@@ -167,6 +167,8 @@ public class determiningSorterEfficiency {
         return i;
     }
 
+    //Code for the heapSort method and helper methods was inherited from geeksforgeeks.org and implemented accordingly
+    //https://www.geeksforgeeks.org/heap-sort/
     public int[] heapSort(int[] inputArray){
         int arrayLength = inputArray.length;
         int temp;
